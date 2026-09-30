@@ -17,12 +17,6 @@ typedef NS_ENUM(NSInteger, NYAlertViewStyle) {
     NYAlertViewStyleIOSCustom
 };
 
-@interface UIButton (BackgroundColor)
-
-- (void)setBackgroundColor:(UIColor *)color forState:(UIControlState)state;
-
-@end
-
 @interface NYAlertTextView : UITextView
 @end
 
